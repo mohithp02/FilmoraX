@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../components/Header';
 import Movieview from './Movieview';
 
 function Landing() {
     const [movieState, setMovieState] = useState("")
     const [movies, setMovies] = useState([])
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const checkMovie = (value) => {
         if (!value.trim()) {
@@ -42,7 +46,7 @@ function Landing() {
                     <h1 className='hero-title'>Discover your next favorite movie</h1>
                     <p className='hero-subtitle'>Search the latest movies, explore results instantly, and open any title for full details.</p>
 
-                    <div className='search-panel'>
+                    <div id='landing-search' className='search-panel'>
                         <div className='search-row'>
                             <input
                                 placeholder='Enter a Movie'

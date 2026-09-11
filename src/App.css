@@ -66,8 +66,7 @@
 }
 
 .landing-page {
-  background: #050b18;
-
+  background: linear-gradient(180deg, #0b0d17 0%, #18131d 38%, #0b1020 100%);
 }
 
 .hero-section {
@@ -183,7 +182,9 @@
 .results-section {
   min-height: 100vh;
   padding: 72px 24px 90px;
-  background: linear-gradient(180deg, #0b1120 0%, #0f172a 100%);
+  background:
+    radial-gradient(circle at top, rgba(251, 191, 36, 0.18), transparent 28%),
+    linear-gradient(180deg, rgba(31, 17, 18, 0.98) 0%, rgba(15, 23, 42, 0.94) 100%);
 }
 
 .results-inner {
@@ -283,7 +284,9 @@
   align-items: center;
   justify-content: center;
   padding: 48px 24px;
-  background: linear-gradient(180deg, #020617 0%, #111827 100%);
+  background:
+    radial-gradient(circle at top, rgba(251, 191, 36, 0.16), transparent 30%),
+    linear-gradient(180deg, rgba(19, 13, 20, 0.98) 0%, rgba(15, 23, 42, 0.96) 100%);
 }
 
 .detail-card {
