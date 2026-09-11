@@ -1,16 +1,69 @@
-# React + Vite
+# MovieScan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieScan is a React + Vite movie search web application that lets users search for movies using the OMDb API, view matching results on the landing page, and open a selected movie to see its detailed information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search movies by title
+- Display search results immediately on the landing page
+- Smooth scroll to the results section after a successful search
+- Open a movie card to view full movie details
+- Responsive and modern UI with a cinematic landing-page design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router
+- OMDb API
+- Bootstrap utility classes for layout
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/App.jsx` - application routing setup
+- `src/pages/Landing.jsx` - landing page with search input and result rendering
+- `src/pages/Movieview.jsx` - movie result cards
+- `src/pages/Movie.jsx` - detailed movie information page
+- `src/components/Header.jsx` - reusable top navigation header
+- `src/App.css` - main styling and layout
+- `src/index.css` - base global styling
+
+## Getting Started
+
+1. Clone the project
+2. Open the project folder
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local Vite URL shown in the terminal
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## API Note
+
+This project uses the OMDb API with a predefined API key in the fetch requests. If you want to use your own key, update the `apikey` value in the fetch URLs in the relevant pages.
+
+## Screens
+
+- Landing page with movie search
+- Results section below the hero area
+- Movie detail page with full movie metadata
+
+## Author
+
+MovieScan is a small React project created for movie search and learning UI/UX styling.
