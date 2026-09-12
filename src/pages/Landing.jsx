@@ -50,7 +50,7 @@ function Landing() {
                         <div className='search-row'>
                             <input
                                 placeholder='Enter a Movie'
-                                className='search-input'
+                                className='search-input w-100'
                                 value={movieState}
                                 onChange={(e) => setMovieState(e.target.value)}
                             />
