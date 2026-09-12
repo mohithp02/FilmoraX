@@ -12,12 +12,12 @@ function Movieview({ movies = [] }) {
         <div className='results-inner'>
             <div className='results-header'>
                 <p className='results-label'>Results</p>
-                <h2>Movies matching your search</h2>
+                <h2>Here Are the Movies You Searched For</h2>
             </div>
 
             {movies.length === 0 ? (
                 <div className='empty-state'>
-                    <p>Search for a movie to see results.</p>
+                    {/* <p>Search for a movie to see results.</p> */}
                 </div>
             ) : (
                 <div className='results-grid'>

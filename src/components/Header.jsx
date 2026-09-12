@@ -8,9 +8,9 @@ function Header() {
     <header className='top-header'>
       <div className='header-inner'>
         <div className='brand-wrap'>
-          <div className='brand-mark'>M</div>
+          <div className='brand-mark'>raX</div>
           <div>
-            <p className='brand-name'>MovieScan</p>
+            <p className='brand-name'>FilmoraX</p>
           </div>
         </div>
 

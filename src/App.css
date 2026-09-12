@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  background: linear-gradient(135deg, hwb(149 14% 2%), #f59e0b);
   color: #111827;
   box-shadow: 0 12px 26px rgba(251, 191, 36, 0.28);
 }
@@ -77,7 +77,7 @@
   padding: 40px 24px 100px;
   background:
     linear-gradient(rgba(15, 23, 42, 0.45), rgba(15, 23, 42, 0.6)),
-    url('https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg') center/cover no-repeat;
+    url('https://img.magnific.com/free-vector/shiny-film-negative-cinema-background-with-text-space_1017-52787.jpg') center/cover no-repeat;
 }
 
 .hero-content {

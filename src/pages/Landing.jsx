@@ -42,9 +42,9 @@ function Landing() {
             <Header />
             <section className='hero-section'>
                 <div className='hero-content'>
-                    <span className='hero-badge'>MovieScan</span>
-                    <h1 className='hero-title'>Discover your next favorite movie</h1>
-                    <p className='hero-subtitle'>Search the latest movies, explore results instantly, and open any title for full details.</p>
+                    <span className='hero-badge'>FilmoraX</span>
+                    <h1 className='hero-title'>Find your next cinematic obsession</h1>
+                    <p className='hero-subtitle'>Search, discover, and explore movies you'll love.</p>
 
                     <div id='landing-search' className='search-panel'>
                         <div className='search-row'>
