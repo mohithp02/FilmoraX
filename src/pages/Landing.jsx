@@ -16,7 +16,7 @@ function Landing() {
             return
         }
 
-        fetch(`https://www.omdbapi.com/?s=${value}&apikey=d150240d`)
+        fetch(`https://www.omdbapi.com/?s=${value}&apikey=5173d97f`)
             .then((response) => response.json())
             .then((movie) => {
                 if (movie.Search) {

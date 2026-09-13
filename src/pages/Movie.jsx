@@ -10,7 +10,7 @@ function Movie() {
   useEffect(() => {
     if (!movieApi) return;
 
-    fetch(`https://www.omdbapi.com/?i=${movieApi}&apikey=d150240d`)
+    fetch(`https://www.omdbapi.com/?i=${movieApi}&apikey=5173d97f`)
       .then(response => response.json())
       .then(data => {
         setMovie(data);
